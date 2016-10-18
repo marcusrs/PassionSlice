@@ -3,13 +3,14 @@
 <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>@ViewData["Title"] - PassionSlice</title>
+    <title>@ViewData["Title"] - Passion Slice</title>
 
     <environment names="Development">
         <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.css" />
         <link rel="stylesheet" href="~/css/site.css" />
         <link rel="stylesheet" href="~/lib/font-awesome/css/font-awesome.css" />
         <link rel="stylesheet" href="~/lib/animate.css/animate.css" />
+        <link href="https://fonts.googleapis.com/css?family=Jacques+Francois+Shadow|Kumar+One+Outline" rel="stylesheet">
     </environment>
     <environment names="Staging,Production">
         <link rel="stylesheet" href="https://ajax.aspnetcdn.com/ajax/bootstrap/3.3.6/css/bootstrap.min.css"
@@ -22,32 +23,50 @@
     @Html.ApplicationInsightsJavaScript(TelemetryConfiguration)
 </head>
 <body>
+                                  <!-- Sidebar -->
     <div id="wrapper">
         <div class="overlay"></div>
         <nav class="navbar navbar-inverse navbar-fixed-top" id="sidebar-wrapper" role="navigation">
-            <div class="nav sidebar-nav">
-                <span class="sidebar-brand">
+            <ul class="nav sidebar-nav">
+                <li class="sidebar-brand">
                     <a>
-                        Menu
+                        Passion Slice
                     </a>
-                </span>
-                <span class="list-group-item">
+                </li>
+
+                <li>
                     <a asp-area="" asp-controller="Home" asp-action="Index">Home</a>
-                </span>
-                <span class="list-group-item">
+                </li>
+
+                <li>
                     <a asp-area="" asp-controller="Home" asp-action="About">About</a>
-                </span>
-                <span class="list-group-item">
+                </li>
+
+                <li class="dropdown">
+                    <a href="#" class="dropdown-toggle" data-toggle="dropdown">Works <span class="caret"></span></a>
+                    <ul class="dropdown-menu" role="menu">
+                        <li class="dropdown-header">Dropdown heading</li>
+                        <li><a href="#">Action</a></li>
+                        <li><a href="#">Another action</a></li>
+                        <li><a href="#">Something else here</a></li>
+                        <li><a href="#">Separated link</a></li>
+                    </ul>
+                </li>
+
+                <li>
                     <a asp-area="" asp-controller="Home" asp-action="Contact">Contact</a>
-                </span>
-            </div>
+                </li>
+            </ul>
         </nav>
-        <button type="button" class="hamburger is-closed" data-toggle="offcanvas">
-            <span class="hamb-top"></span>
-            <span class="hamb-middle"></span>
-            <span class="hamb-bottom"></span>
-        </button>
-    </div>
+                                 <!-- /#sidebar-wrapper -->
+        <div id="page-content-wrapper">
+            <button type="button" class="hamburger is-closed" data-toggle="offcanvas">
+                <span class="hamb-top"></span>
+                <span class="hamb-middle"></span>
+                <span class="hamb-bottom"></span>
+            </button>
+        </div>
+     </div>
         <div class="container body-content">
             @RenderBody()
 
