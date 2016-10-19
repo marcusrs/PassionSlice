@@ -15,6 +15,7 @@ body {
 
     font-size: 10em;
     font-family: 'Jacques Francois Shadow', cursive, Verdana;
+    color:blueviolet;
 }
 /* Wrapping element */
 /* Set some basic padding to keep content from hitting the edges */
@@ -354,12 +355,19 @@ html { height: 100%;}
 
 #map {
 
-    background-color:aquamarine;
+    background-color:mediumorchid;
     border-style: solid;
     border-width: 5px;
     margin-bottom:10px;
     margin-top:1.5px
 }
+
+.title {
+
+    color:white;
+
+}
+
 
 #sm{
 

@@ -18,7 +18,7 @@ namespace PassionSlice.Controllers
 
         public IActionResult Contact()
         {
-            ViewData["Message"] = "Let our Team take care of you!";
+            ViewData["Message"] = "Let our Team take care of you. We can help you look your best without the stress!";
 
             return View();
         }
