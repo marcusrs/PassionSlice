@@ -16,6 +16,13 @@ namespace PassionSlice.Controllers
             return View();
         }
 
+        public IActionResult photo()
+        {
+            ViewData["Message"] = "Here are some Photos of our Work.";
+
+            return View();
+        }
+
         public IActionResult Contact()
         {
             ViewData["Message"] = "Let our Team take care of you. We can help you look your best without the stress!";

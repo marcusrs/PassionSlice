@@ -13,8 +13,8 @@ body {
 
 #full {
 
-    font-size: 10em;
-    font-family: 'Jacques Francois Shadow', cursive, Verdana;
+    font-size: 19em;
+    font-family: 'Tangerine', cursive, Verdana;
     color:blueviolet;
 }
 /* Wrapping element */
@@ -389,7 +389,7 @@ html { height: 100%;}
 
 #service {
 
-      background-color:white;
+      background-color:mediumspringgreen;
       font-family:Helvetica;
 }
 
@@ -404,6 +404,7 @@ html { height: 100%;}
 #list ul{
 
     margin-top:-29em;
+    font-size:15px;
 
 }
 
