@@ -390,5 +390,24 @@ html { height: 100%;}
 #service {
 
       background-color:white;
+      font-family:Helvetica;
 }
 
+#sign{
+
+    margin-top:50px;
+    font-size:10em;
+    font-family: 'Tangerine', cursive;
+    color:mediumorchid;
+}
+
+#list ul{
+
+    margin-top:-29em;
+
+}
+
+#list li{
+
+    margin-top:6px;
+}
