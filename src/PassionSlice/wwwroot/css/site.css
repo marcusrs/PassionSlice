@@ -389,8 +389,9 @@ html { height: 100%;}
 
 #service {
 
-      background-color:mediumspringgreen;
+      background-color:aqua;
       font-family:Helvetica;
+      color:darkblue;
 }
 
 #sign{
@@ -403,7 +404,7 @@ html { height: 100%;}
 
 #list ul{
 
-    margin-top:-29em;
+    margin-top:-26em;
     font-size:15px;
 
 }
@@ -417,5 +418,6 @@ html { height: 100%;}
                               /**************************Photo page *************************/
 #wed{
 
-	background-color:whitesmoke;
+	background-color:aquamarine;
+    margin-bottom:40px;
 }
