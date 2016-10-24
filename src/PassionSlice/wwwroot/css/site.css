@@ -1,6 +1,6 @@
 ﻿
 
-/*  video on home page */
+                                               /*  video on home page */
 
 body {
     padding-top: 50px;
@@ -394,6 +394,11 @@ html { height: 100%;}
       color:darkblue;
 }
 
+#bottom {
+
+    margin-bottom:40px;
+}
+
 #sign{
 
     margin-top:50px;
@@ -402,10 +407,11 @@ html { height: 100%;}
     color:mediumorchid;
 }
 
+
 #list ul{
 
-    margin-top:-26em;
-    font-size:15px;
+    margin-top:-24em;
+    font-size:17px;
 
 }
 
@@ -415,9 +421,10 @@ html { height: 100%;}
 }
 
 
+
                               /**************************Photo page *************************/
 #wed{
 
 	background-color:aquamarine;
-    margin-bottom:40px;
+    margin-bottom:50px;
 }
