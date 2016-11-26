@@ -376,10 +376,59 @@ html { height: 100%;}
 }
 
 
+                              /******************* About page ************************/
+
+#service {
+
+      background-color:aqua;
+      font-family:Helvetica;
+      color:darkblue;
+}
+
+#bottom {
+
+    margin-bottom:40px;
+}
+
+#sign{
+
+    margin-top:50px;
+    font-size:9em;
+    font-family: 'Tangerine', cursive;
+    color:mediumorchid;
+}
+
+
+#list ul{
+
+    margin-top:-24em;
+    font-size:17px;
+
+}
+
+#list li{
+
+    margin-top:6px;
+}
+
+
+                              /**************************Photo page *************************/
+#wed{
+
+	background-color:aquamarine;
+    margin-bottom:50px;
+}
+
+                               /**************************Error page **************************/
+
+#error{
+
+  font-size:4em;
+
+}
+
+
                                /********************** Contact page **********************/
-
-
-
 
 
 #map {
@@ -425,56 +474,4 @@ html { height: 100%;}
 #contact {
 
     background-color:floralwhite;
-}
-
-
-                              /******************* About page ************************/
-
-#service {
-
-      background-color:aqua;
-      font-family:Helvetica;
-      color:darkblue;
-}
-
-#bottom {
-
-    margin-bottom:40px;
-}
-
-#sign{
-
-    margin-top:50px;
-    font-size:12em;
-    font-family: 'Tangerine', cursive;
-    color:mediumorchid;
-}
-
-
-#list ul{
-
-    margin-top:-24em;
-    font-size:17px;
-
-}
-
-#list li{
-
-    margin-top:6px;
-}
-
-
-                              /**************************Photo page *************************/
-#wed{
-
-	background-color:aquamarine;
-    margin-bottom:50px;
-}
-
-                               /**************************Error page **************************/
-
-#error{
-
-  font-size:4em;
-
 }
