@@ -1,6 +1,6 @@
 ﻿
 
-                                               /*  video on home page */
+                             /***************************  video and home page *******************************/
 
 
 #full {
@@ -74,7 +74,7 @@ textarea {
   }
 }
 
-                     /************  side menu ************/
+                             /*************************************  side menu **************************************/
 
 body {
     position: relative;
@@ -419,14 +419,6 @@ html { height: 100%;}
     margin-bottom:50px;
 }
 
-                               /**************************Error page **************************/
-
-#error{
-
-  font-size:4em;
-
-}
-
 
                                /********************** Contact page **********************/
 
@@ -474,4 +466,14 @@ html { height: 100%;}
 #contact {
 
     background-color:floralwhite;
+}
+
+
+
+                               /**************************Error page **************************/
+
+#error{
+
+  font-size:4em;
+
 }
