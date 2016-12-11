@@ -3,6 +3,14 @@
                              /***************************  video and home page *******************************/
 
 
+#music {
+   width: 400px;
+   padding-bottom: 2px;
+   padding-top: 2px;
+   float:right;
+}
+
+
 #full {
 
     font-size: 11em;
