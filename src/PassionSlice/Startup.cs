@@ -41,7 +41,6 @@ namespace PassionSlice
             loggerFactory.AddConsole(Configuration.GetSection("Logging"));
             loggerFactory.AddDebug();
 
-            app.UseApplicationInsightsRequestTelemetry();
 
             if (env.IsDevelopment())
             {
@@ -53,7 +52,6 @@ namespace PassionSlice
                 app.UseExceptionHandler("/Home/Error");
             }
 
-            app.UseApplicationInsightsExceptionTelemetry();
 
             app.UseStaticFiles();
 
