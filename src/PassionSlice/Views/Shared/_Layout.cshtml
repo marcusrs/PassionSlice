@@ -4,7 +4,7 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <meta http-equiv="x-ua-compatible" content="ie=edge">
-
+    @inject Microsoft.ApplicationInsights.AspNetCore.JavaScriptSnippet JavaScriptSnippet
     <title>@ViewData["Title"]</title>
 
     <environment names="Development">
@@ -27,7 +27,7 @@
         <link href="https://fonts.googleapis.com/css?family=Ruthie|Tangerine" rel="stylesheet" asp-append-version="true"/>
         <link href="~/lib/lightbox2/dist/css/lightbox.min.css" rel="stylesheet" />
     </environment>
-    @Html.ApplicationInsightsJavaScript(TelemetryConfiguration)
+    @Html.Raw(JavaScriptSnippet.FullScript)
 </head>
 <body>
                                   <!-- Sidebar -->
